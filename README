@@ -1,0 +1,43 @@
+Welcome to fello!
+
+fello is a Firefox Hello World Extension. It adds itself as an item
+under the Tools menu, allows you to set the hello message and displays
+that message in a new tab.
+
+o Requirements
+o Installation
+o Configuration
+o Usage
+o Uninstall
+o More information
+
+Requirements
+============
+Firefox 3.x
+
+Installation
+============
+cd fello
+zip -r fello.xpi *
+open fello.xpi with Firefox
+
+Configuration
+=============
+You can configure the message to be displayed in Firefox's preferences.
+Open the preferences and click on the fello tab. Set the message from there.
+
+Usage
+=====
+Tools -> fello
+This will open fello in a new tab and display the message you set in the preferences.
+
+Uninstall
+=========
+Tools -> Add-ons
+click on fello
+click on Uninstall
+
+More information
+================
+http://codebrane.com/blog
+

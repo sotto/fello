@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+
+<!-- Localization Information -->
+<!DOCTYPE overlay SYSTEM "chrome://fello/locale/fello.dtd">
+
+
+<overlay id="fello_preferences_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <!-- Merge with the BrowserPreferences Window -->
+  <prefwindow id="BrowserPreferences">
+
+    <!-- Create a new pane (tab) for HelloWorld! -->
+    <prefpane id="felloPane" label="&prefpane.label;" onpaneload="populateMessagePref()"
+              image="chrome://fello/content/images/fello32.png">
+
+			<!-- Extension variables -->
+      <preferences>
+        <preference id="felloMessage" name="extensions.fello.message" type="string" />
+      </preferences>
+
+      <!-- Include the javascript code -->
+      <script type="application/x-javascript" src="chrome://fello/content/fello.js" />
+
+      <!-- Message area -->
+      <groupbox id="defaultGroupBox">
+        <caption label="&groupbox.label;" />
+        <hbox align="center">
+          <label value="&default.message.label;" control="felloMessage" />
+          <textbox class="padded" flex="1" preference="felloMessage" id="messageTextBox"
+                   type="autocomplete" autocompletesearch="history" />
+        </hbox>
+
+        <hbox align="center" pack="end">
+          <button label="&button.text.hello.message;" id="setMessageButton"
+                  oncommand="setMessage('messageTextBox');" />
+          <button label="&button.text.about;" id="aboutButton" 
+                  oncommand="about();" />
+        </hbox>
+      </groupbox>
+
+    </prefpane>
+
+  </prefwindow>
+
+</overlay>

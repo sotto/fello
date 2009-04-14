@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.mozilla.org/2004/em-rdf#">
+	<RDF:Description about="urn:mozilla:install-manifest">
+		<id>fello@codebrane.com</id>
+		<name>fello</name>
+		<version>1.0.0</version>
+		<type>2</type>
+		<description>A Hello World! Extension</description>
+		<iconURL>chrome://fello/content/images/fello32.png</iconURL>
+		<homepageURL>http://codebrane.com/blog/</homepageURL>
+		<creator>alistair</creator>
+		<contributor>Alistair Young</contributor>
+		<targetApplication>
+			<RDF:Description>
+				<id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+				<minVersion>1.5</minVersion>
+				<maxVersion>3.*</maxVersion>
+			</RDF:Description>
+		</targetApplication>
+	</RDF:Description>
+</RDF:RDF>

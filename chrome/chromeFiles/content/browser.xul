@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!-- Localization Information -->
+<!DOCTYPE overlay SYSTEM "chrome://fello/locale/fello.dtd">
+
+<overlay id="fello_browser_overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<!-- Include the javascript code -->
+	<script type="application/x-javascript" src="chrome://fello/content/fello.js" />
+
+	<!-- Add the extension to the Tools menu -->
+	<menupopup id="menu_ToolsPopup"> 
+		<menuitem label="&menu.label.text;"
+							insertafter="devToolsSeparator" 
+							oncommand="showFello();" />
+	</menupopup>
+
+</overlay>

@@ -1,0 +1,4 @@
+content	fello	chrome/chromeFiles/content/
+locale	fello	en-UK	chrome/chromeFiles/locale/en-UK/fello/
+overlay	chrome://browser/content/browser.xul	chrome://fello/content/browser.xul
+overlay	chrome://browser/content/preferences/preferences.xul	chrome://fello/content/preferences.xul

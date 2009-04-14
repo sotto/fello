@@ -1,0 +1,1 @@
+pref("extensions.fello.message", "Hello World!");

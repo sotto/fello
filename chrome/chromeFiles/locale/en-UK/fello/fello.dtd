@@ -1,0 +1,8 @@
+<!ENTITY  prefpane.label  "fello">
+<!ENTITY  groupbox.label   "fello message">
+<!ENTITY  default.message.label   "Set the message">
+<!ENTITY  button.text.hello.message   "Set message">
+<!ENTITY  button.text.about   "About">
+<!ENTITY  menu.label.text   "fello">
+<!ENTITY  button.text.close   "Close Window">
+<!ENTITY  window.title   "Hello World! Extension">
