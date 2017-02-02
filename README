@@ -6,6 +6,7 @@ that message in a new tab.
 
 o Requirements
 o Installation
+o Alternate Installation
 o Configuration
 o Usage
 o Uninstall
@@ -13,13 +14,17 @@ o More information
 
 Requirements
 ============
-Firefox 3.x
+Firefox 4.x
 
 Installation
 ============
 cd fello
 zip -r fello.xpi *
 open fello.xpi with Firefox
+
+Alternate Installation
+======================
+copy or git clone the source directory to your drive and create a textfile "fello@codebrane.com" in your firefox profile extentiondirectory, containing the full path of your fello sourcedirectory. (including trailing slash (or backslash on windows))
 
 Configuration
 =============
